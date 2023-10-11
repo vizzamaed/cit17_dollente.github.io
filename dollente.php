@@ -86,6 +86,7 @@
         echo "Increment Operation Result: $c </br>";
         $c = $a--;
         echo "Decrement Operation Result: $c </br>";
+        print "done!<br>";    
         
     ?>
 </body>
