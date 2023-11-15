@@ -71,3 +71,15 @@
 </body>
 
 </html>
+
+
+if($result){
+        while($row=$result->fetch_assoc()){
+            echo "Student ID: " . $row["StudentID"]."---"
+                ."Last Name: " . $row["LastName"]."---"
+                ."First Name: " . $row["FirstName"]."---"
+                ."Birthdate: " . $row["DateOfBirth"]."---"
+                ."email: " . $row["email"]."---"
+                ."Phone: " . $row["Phone"]."---"
+        }
+    }
