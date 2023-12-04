@@ -40,4 +40,5 @@ CREATE TABLE Instructor (
 );
 
 //insert into Student(StudentID, FirstName, LastName, DateOfBirth, email, Phone)
-//values (13, "Taylor", "De Maguiba", 050900)
+//values (13, "Taylor", "De Maguiba", 050900,taylor@gmail.com,09888205967)
+
